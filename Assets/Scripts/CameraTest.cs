@@ -6,25 +6,26 @@ public class CameraTest : MonoBehaviour {
 
     public Rigidbody hoehe;
     public Transform rotate;
+    public float Force = 2000f;
+    public float negForce = -2000f;
 
     // Use this for initialization
     void Start () {
 
         Debug.Log("Camera-Script: \n Ich funktioniere");
 
-        Debug.Log("Camera:Script \n Ich funktioniere");
+        hoehe.AddForce(Force * Time.deltaTime, 0, 0);
 
-	}
+    }
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 
-        hoehe.AddForce(0, 5, 0 * Time.deltaTime);
-        //if(rotate.rotation.x<=30){
-            rotate.Rotate((float)0.2, 0, 0 * Time.deltaTime);
-        //}
-
-        hoehe.AddForce(0, 10, 0 * Time.deltaTime);
-        //rotate.Rotate(1,0,0 * Time.deltaTime);
+        if (Input.GetKey("s"))
+        {
+            //hoehe.AddForce(0, 200 * Time.deltaTime, 0); 
+            Force = 0;
+        }
+       
 	}
 }
