@@ -8,24 +8,50 @@ public class CameraTest : MonoBehaviour {
     public Transform rotate;
     public float Force = 2000f;
     public float negForce = -2000f;
+    public float currentY;
+    public float currentX;
 
     // Use this for initialization
     void Start () {
-
-        Debug.Log("Camera-Script: \n Ich funktioniere");
-
+    
         hoehe.AddForce(Force * Time.deltaTime, 0, 0);
-
+        currentX = 0;
+        currentY = 90;
     }
 	
 	// Update is called once per frame
 	void FixedUpdate () {
-
-        if (Input.GetKey("s"))
+    
+        //Rotation nach rechts per Rechtspfeil;
+        if (Input.GetKey(KeyCode.RightArrow))
         {
-            //hoehe.AddForce(0, 200 * Time.deltaTime, 0); 
-            Force = 0;
+            currentY = rotate.eulerAngles.y;
+            currentY += 2;
+            Camera.main.transform.rotation = Quaternion.Euler(currentX, currentY , 0);
         }
-       
-	}
+
+        //Rotation nach links per Linkspfeil;
+        if (Input.GetKey(KeyCode.LeftArrow))
+        {
+            currentY = rotate.eulerAngles.y;
+            currentY -= 2;
+            Camera.main.transform.rotation = Quaternion.Euler(currentX, currentY, 0);
+        }
+
+        //Rotation nach Oben per Pfeil;
+        if (Input.GetKey(KeyCode.UpArrow))
+        {
+            currentX = rotate.eulerAngles.x;
+            currentX -= 2;
+            Camera.main.transform.rotation = Quaternion.Euler(currentX, currentY, 0);
+        }
+
+        ////Rotation nach unten per Pfeil;
+        if (Input.GetKey(KeyCode.DownArrow))
+        {
+            currentX = rotate.eulerAngles.x;
+            currentX += 2;
+            Camera.main.transform.rotation = Quaternion.Euler(currentX, currentY, 0);
+        }
+    }
 }

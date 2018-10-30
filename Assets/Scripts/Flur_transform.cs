@@ -13,11 +13,11 @@ public class Flur_transform : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () {
+	void FixedUpdate () {
 
         temp = transform.localScale;
 
-        temp.x += 0.5f * Time.deltaTime;
+        temp.x += 0.2f * Time.deltaTime;
 
         transform.localScale = temp;
 		
