@@ -7,6 +7,13 @@ public class Korridor_Morph : MonoBehaviour {
    //public float currentY = 90;
    //public float currentX = 0;
     public Transform Flur_Hoehe;
+    public enum LookState
+    {
+        LookUp,
+        LookDown,
+        neutral,
+    };
+    LookState lookState = LookState.neutral;
     Vector3 tempY, temp;
 
     // Use this for initialization
@@ -32,22 +39,35 @@ public class Korridor_Morph : MonoBehaviour {
         }
 
         //Flur wird 0.2 länger
+        /*
         temp = transform.localScale;
 
         temp.x += 0.2f * Time.deltaTime;
 
         transform.localScale = temp;
+        */
+        if (lookState==LookState.LookUp){
+            tempY = Flur_Hoehe.localScale;
+            tempY.y += 0.05f;
+            Flur_Hoehe.localScale = tempY;
+        };
+
+        if (lookState==LookState.LookDown){
+            tempY = Flur_Hoehe.localScale;
+            tempY.y -= 0.05f;
+            Flur_Hoehe.localScale = tempY;
+        }
     }
 
     public void goHigh(){
-        tempY = Flur_Hoehe.localScale;
-        tempY.y += 0.2f;
-        Flur_Hoehe.localScale = tempY;
+        lookState = LookState.LookUp;
     }
 
     public void goLow(){
-        tempY = Flur_Hoehe.localScale;
-        tempY.y -= 0.2f;
-        Flur_Hoehe.localScale = tempY;
+        lookState = LookState.LookDown;
+    }
+
+    public void goNeutral(){
+        lookState = LookState.neutral;
     }
 }
