@@ -19,8 +19,8 @@ Material:
     serializedVersion: 3
     m_TexEnvs: []
     m_Floats:
-    - _DistanceInMeters: 2
-    - _InnerDiameter: 1.23
-    - _OuterDiameter: 3
+    - _DistanceInMeters: 1.4
+    - _InnerDiameter: 0.41
+    - _OuterDiameter: 1.21
     m_Colors:
     - _Color: {r: 1, g: 1, b: 1, a: 1}
