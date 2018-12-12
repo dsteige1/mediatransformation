@@ -23,16 +23,16 @@ public class GvrReticlePointer : GvrBasePointer {
   public const float RETICLE_MIN_INNER_ANGLE = 0.0f;
 
   /// Minimum outer angle of the reticle (in degrees).
-  public const float RETICLE_MIN_OUTER_ANGLE = 0.3f;
+  public const float RETICLE_MIN_OUTER_ANGLE = 0.2f;
 
   /// Angle at which to expand the reticle when intersecting with an object (in degrees).
   public const float RETICLE_GROWTH_ANGLE = 1.5f;
 
   /// Minimum distance of the reticle (in meters).
-  public const float RETICLE_DISTANCE_MIN = 0.4f;
+  public const float RETICLE_DISTANCE_MIN = 0.2f;
 
   /// Maximum distance of the reticle (in meters).
-  public float maxReticleDistance = 20.0f;
+  public float maxReticleDistance = 50.0f;
 
   /// Number of segments making the reticle circle.
   public int reticleSegments = 20;
