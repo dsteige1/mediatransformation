@@ -1,0 +1,272 @@
+fileFormatVersion: 2
+guid: 7a8082a7b2ff24dc482bf741f2fc7de3
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Bogen
+    100002: Bogen.001
+    100004: Camera
+    100006: Cube
+    100008: Cube.001
+    100010: Cube.002
+    100012: Cube.003
+    100014: Cylinder
+    100016: Cylinder001
+    100018: Cylinder002
+    100020: Cylinder003
+    100022: Cylinder003.001
+    100024: Flur
+    100026: Hemi
+    100028: indoor plant_02
+    100030: Kommode
+    100032: Kommode.001
+    100034: Lamp.000
+    100036: Lamp.001
+    100038: Lampe2
+    100040: //RootNode
+    100042: Sphere001
+    100044: Sphere001.001
+    100046: Sphere002
+    100048: Sphere002.001
+    100050: Sphere003
+    100052: Spot
+    100054: Teppich
+    100056: "T\xFCr.000"
+    100058: "T\xFCr.001"
+    100060: "T\xFCr.002"
+    100062: "T\xFCr.003"
+    100064: "T\xFCr.004"
+    100066: "T\xFCr.005"
+    100068: "T\xFCr.006"
+    100070: "T\xFCr.007"
+    400000: Bogen
+    400002: Bogen.001
+    400004: Camera
+    400006: Cube
+    400008: Cube.001
+    400010: Cube.002
+    400012: Cube.003
+    400014: Cylinder
+    400016: Cylinder001
+    400018: Cylinder002
+    400020: Cylinder003
+    400022: Cylinder003.001
+    400024: Flur
+    400026: Hemi
+    400028: indoor plant_02
+    400030: Kommode
+    400032: Kommode.001
+    400034: Lamp.000
+    400036: Lamp.001
+    400038: Lampe2
+    400040: //RootNode
+    400042: Sphere001
+    400044: Sphere001.001
+    400046: Sphere002
+    400048: Sphere002.001
+    400050: Sphere003
+    400052: Spot
+    400054: Teppich
+    400056: "T\xFCr.000"
+    400058: "T\xFCr.001"
+    400060: "T\xFCr.002"
+    400062: "T\xFCr.003"
+    400064: "T\xFCr.004"
+    400066: "T\xFCr.005"
+    400068: "T\xFCr.006"
+    400070: "T\xFCr.007"
+    2000000: Camera
+    2100000: No Name
+    2100002: Material.010
+    2100004: Material.011
+    2100006: IDP_leaves
+    2100008: IDP_Pot
+    2100010: IDP_ground
+    2100012: Material.007
+    2100014: kabel
+    2100016: chrom
+    2100018: keramik
+    2100020: lampe2glas
+    2100022: Material
+    2100024: Material.003
+    2100026: Material.002
+    2100028: Material.006
+    2100030: Material.004
+    2100032: wallpaper_1
+    2100034: Material.005
+    2100036: wallpaper_2
+    2100038: brown_carpet
+    2300000: Bogen
+    2300002: Bogen.001
+    2300004: Cube
+    2300006: Cube.001
+    2300008: Cube.002
+    2300010: Cube.003
+    2300012: Cylinder
+    2300014: Cylinder001
+    2300016: Cylinder002
+    2300018: Cylinder003
+    2300020: Cylinder003.001
+    2300022: Flur
+    2300024: indoor plant_02
+    2300026: Kommode
+    2300028: Kommode.001
+    2300030: Sphere001
+    2300032: Sphere001.001
+    2300034: Sphere002
+    2300036: Sphere002.001
+    2300038: Sphere003
+    2300040: Teppich
+    2300042: "T\xFCr.000"
+    2300044: "T\xFCr.001"
+    2300046: "T\xFCr.002"
+    2300048: "T\xFCr.003"
+    2300050: "T\xFCr.004"
+    2300052: "T\xFCr.005"
+    2300054: "T\xFCr.006"
+    2300056: "T\xFCr.007"
+    3300000: Bogen
+    3300002: Bogen.001
+    3300004: Cube
+    3300006: Cube.001
+    3300008: Cube.002
+    3300010: Cube.003
+    3300012: Cylinder
+    3300014: Cylinder001
+    3300016: Cylinder002
+    3300018: Cylinder003
+    3300020: Cylinder003.001
+    3300022: Flur
+    3300024: indoor plant_02
+    3300026: Kommode
+    3300028: Kommode.001
+    3300030: Sphere001
+    3300032: Sphere001.001
+    3300034: Sphere002
+    3300036: Sphere002.001
+    3300038: Sphere003
+    3300040: Teppich
+    3300042: "T\xFCr.000"
+    3300044: "T\xFCr.001"
+    3300046: "T\xFCr.002"
+    3300048: "T\xFCr.003"
+    3300050: "T\xFCr.004"
+    3300052: "T\xFCr.005"
+    3300054: "T\xFCr.006"
+    3300056: "T\xFCr.007"
+    4300000: Cube.003
+    4300002: Cube.002
+    4300004: Cylinder
+    4300006: indoor plant_02
+    4300008: Kommode.001
+    4300010: Cylinder003.001
+    4300012: Sphere002.001
+    4300014: Sphere001.001
+    4300016: Sphere001
+    4300018: Sphere002
+    4300020: Cylinder003
+    4300022: Sphere003
+    4300024: Cylinder002
+    4300026: Cylinder001
+    4300028: Cube.001
+    4300030: Kommode
+    4300032: "T\xFCr.006"
+    4300034: "T\xFCr.005"
+    4300036: "T\xFCr.004"
+    4300038: "T\xFCr.003"
+    4300040: "T\xFCr.002"
+    4300042: "T\xFCr.001"
+    4300044: "T\xFCr.000"
+    4300046: "T\xFCr.007"
+    4300048: Teppich
+    4300050: Bogen.001
+    4300052: Flur
+    4300054: Cube
+    4300056: Bogen
+    10800000: Hemi
+    10800002: Lamp.000
+    10800004: Lamp.001
+    10800006: Spot
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
