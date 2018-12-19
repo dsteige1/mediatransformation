@@ -187,7 +187,57 @@ ModelImporter:
     10800002: Lamp.000
     10800004: Lamp.001
     10800006: Spot
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IDP_Pot
+    second: {fileID: 2100000, guid: fef61f4d69f334398a01d17769f0ab05, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IDP_ground
+    second: {fileID: 2100000, guid: e0c0bf46e13be4cb783617a6502f02b0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: IDP_leaves
+    second: {fileID: 2100000, guid: ece88ebce84fa4aa1b1d1bfe31df5df0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material
+    second: {fileID: 2100000, guid: 483651d030b3345a29f872fdff84139f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.002
+    second: {fileID: 2100000, guid: fc5600694fd2549489ac0a22a95fe8bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.003
+    second: {fileID: 2100000, guid: 555a153578c834fbd9ae74446b677131, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Material.007
+    second: {fileID: 2100000, guid: 85c264a7ada3545e6a38cc3e2f4f2f30, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brown_carpet
+    second: {fileID: 2100000, guid: 530ce8de007704a8d9b30094e3570c72, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wallpaper_1
+    second: {fileID: 2100000, guid: c1307d23a41714a989cebd9639cc0aad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: wallpaper_2
+    second: {fileID: 2100000, guid: f2d18884dcc3941f592bf9d28efdd335, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
