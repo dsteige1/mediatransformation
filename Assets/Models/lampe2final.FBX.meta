@@ -39,7 +39,27 @@ ModelImporter:
     4300006: Cylinder003
     4300008: Sphere002
     4300010: Sphere001
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: chrom
+    second: {fileID: 2100000, guid: 39922ff40fda343a2a8448668acf6eab, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: kabel
+    second: {fileID: 2100000, guid: 8631caa22516149d8954cd2a492c59f9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: keramik
+    second: {fileID: 2100000, guid: 46bcbf38db1a24feabf7afc6c561ba5d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lampe2glas
+    second: {fileID: 2100000, guid: 4952fcc03186b4d89957979f0dcd8e10, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
